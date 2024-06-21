@@ -1,0 +1,82 @@
+theme = "blowfish"
+baseURL = "https://chetanthapliyal.cloud/"
+defaultContentLanguage = "en"
+# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 0
+buildDrafts = false
+buildFuture = false
+enableEmoji = true
+# googleAnalytics = "G-XXXXXXXXX"
+title = 'Chetan Thapliyal Portfolio'
+
+[author]
+name = "Chetan Thapliyal"
+image = "img/ct_bw.png"
+headline = "Cloud Engineer . Technical Writer"
+bio = "Freelance Technical Writer"
+links = [ 
+    { email = "chetan.thapliyal@outlook.com" },
+    { github = "https://github.com/ChetanThapliyal" },
+    { hashnode = "https://blog.chetan-thapliyal.cloud" }, 
+    { linkedin = "https://www.linkedin.com/in/chetanthapliyal/" }, 
+    { google = "https://www.cloudskillsboost.google/public_profiles/a2b5573a-05ca-418c-a65a-8e3e77f9e6f4" }, 
+    { microsoft = "https://learn.microsoft.com/en-us/users/chetanthapliyal/"},
+    #{ medium = "" },
+    #{ hackernews = ""},
+    #{ mastodon = "" },
+    # { instagram = "" },
+    # { goodreads = "" },
+    #{ keybase = "" },
+    #{ reddit = "" },
+    #{ telegram = "" },
+    #{ music = "/music" },
+    ]
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'always'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 0
+  toLower = false
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "authors"
+        weight = 20
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+    [[related.indices]]
+      applyFilter = false
+      name = 'fragmentrefs'
+      type = 'fragments'
+      weight = 10

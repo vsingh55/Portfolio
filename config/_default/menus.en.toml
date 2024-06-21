@@ -1,0 +1,32 @@
+[[main]]
+name = "Projects"
+pageRef = "projects"
+identifier = "TNHd03B0EV"
+weight = 9996
+
+[[main]]
+name = "About"
+pageRef = "about"
+identifier = "rkeo1qSjko"
+weight = 9995
+
+[[main]]
+name = "Resume"
+pageRef = "resume"
+identifier = "Won53Sih5u"
+weight = 9997
+
+# [[main]]
+# name = "Posts"
+# pageRef = "posts"
+# identifier = "v5CQH58pYK"
+# weight = 9998
+
+[[main]]
+name = "Blog"
+url = "https://blog.chetan-thapliyal.cloud"
+identifier = "Px4DgmMbau"
+weight = 9999
+
+[[footer]]
+none = "none"

@@ -1,0 +1,135 @@
+colorScheme = "fire" #blowfish,avocado,fire,ocean,forest,princess,neon,bloody,terminal,marvel,noir,autumn,congo,slate
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+enableSearch = false
+enableCodeCopy = true
+disableImageOptimization = false
+disableTextInHeader = false
+# robots = "all"
+# defaultBackgroundImage = "img/wavey.webp" #used as default for background images 
+# defaultBackgroundImage = "img/backgrounds/ripples.svg"
+# defaultFeaturedImage = "img/mirza-logo-black.png" # used as default for featured images in all articles
+mainSections = ["Posts"] #The sections that should be displayed in the recent articles list. If not provided the section with the greatest number of articles is used.
+highlightCurrentMenuArea = true
+smartTOC = true #table of content
+# smartTOCHideUnfocusedChildren = true  #When smart Table of Contents is turned on, this will hide deeper levels of the table when they are not in focus.
+# disableImageZoom = false
+
+
+
+[header]
+layout = "fixed-fill-blur"       #basic, fixed, fixed-fill, fixed-fill-blur
+
+[footer]
+showMenu = false
+showCopyright = false
+showThemeAttribution = false
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "background"      #page, profile, hero, card, background, custom
+# homepageImage = "img/backgrounds/mac.jpg"
+# homepageImage = "img/backgrounds/mac.jpg"
+homepageImage = "img/backgrounds/particle-strokes.svg"
+# homepageImage = "img/circle-space.jpg" # used in: hero, and card
+showRecent = false
+showRecentItems = 5
+showMoreLink = false
+showMoreLinkDest = "/posts"
+cardView = true  #Display recent articles as a gallery of cards.
+cardViewScreenWidth = false   #Enhance the width of the recent articles card gallery to take the full width available.
+layoutBackgroundBlur = true   # only used when layout equals background
+
+[article]
+showDate = true
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = true
+showHero = true
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showTableOfContents = true
+showTaxonomies = false
+showAuthorsBadges = false
+showWordCount = true
+showZenMode = true
+
+[list]
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = false
+
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
+
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
+
+[firebase]
+  # apiKey = "XXXXXX"
+  # authDomain = "XXXXXX"
+  # projectId = "XXXXXX"
+  # storageBucket = "XXXXXX"
+  # messagingSenderId = "XXXXXX"
+  # appId = "XXXXXX"
+  # measurementId = "XXXXXX"
+
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[umamiAnalytics]
+
+  # identifier = ""
+  # globalWidget = true
+  # globalWidgetMessage = "Hello"
+  # globalWidgetColor = "#FFDD00"
+  # globalWidgetPosition = "Right"
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
+
+# [params]
+#   customCSS = ["css/custom.css"]
